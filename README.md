@@ -2,7 +2,7 @@
 
 #Steps to working on this repo.
 
-1: Fork the repo.
+1: Fork the Repo.
 2: Clone the forked copy of the repo.
 3: Confirm you are on develop branch. 
 3: Create a feature branch off develop e.g "git checkout -b home-page"
