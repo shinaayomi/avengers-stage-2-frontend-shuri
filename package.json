@@ -1,0 +1,19 @@
+{
+  "name": "avengers-stage-2-frontend-shuri",
+  "version": "1.0.0",
+  "description": "#Steps to working on this repo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akinsikuoluwafemi/avengers-stage-2-frontend-shuri.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akinsikuoluwafemi/avengers-stage-2-frontend-shuri/issues"
+  },
+  "homepage": "https://github.com/akinsikuoluwafemi/avengers-stage-2-frontend-shuri#readme"
+}
