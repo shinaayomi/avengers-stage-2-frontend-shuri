@@ -37,7 +37,7 @@
     position: absolute;
     top: 50%;
     left: 25%;
-    transform: translate(0%, -60%)
+    transform: translate(0%, -65%)
 
 
 }
@@ -78,4 +78,29 @@
     font-weight: 300;
     text-align: center;
 
+}
+
+.availability-container {
+    border: 2px solid #D9B77A;
+    border-radius: 20px;
+    /* height: 20rem; */
+
+}
+
+.availability-inner {
+}
+
+.form-column {
+    background: #6D5C3E;
+    height: 20rem;
+}
+
+.formic-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date {
+    height: 2.4rem;
 }
