@@ -1,0 +1,489 @@
+/*    HOTEL LANDING PAGE TASK    */
+    /* GENERAL STYLING */
+
+body{
+    min-width: 135%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+a,a:focus{
+    color: unset;
+    text-decoration: unset;
+}
+
+
+section{
+    margin-bottom: 2em;
+}
+
+
+.section_child{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 6em !important;
+}
+
+    /* NAVBAR */
+
+nav{
+    display: flex;
+    align-items: center;
+    padding:1em;
+
+}
+
+nav>div{
+    display: flex;
+    align-items: center;
+}
+
+
+nav div#navbar_elements{
+    min-width: 40%;
+    margin-left: auto;
+    color: #e1b382;
+    justify-content: space-between;
+}
+
+#navbar_elements:active{
+    color: #1d1e22;
+}
+
+#logo{
+    color: #e1b382;
+}
+
+#logo img{
+    min-width: 40px;
+    min-height: 40px;
+}
+
+#logo div > :nth-child(1){
+    font-size: 83%;
+    font-weight: lighter;
+}
+#logo div> :nth-child(2){
+    letter-spacing: 1px;
+}
+
+    /* COVER_PAGE */
+
+
+#cover_png{
+    padding-bottom: 0.8em;
+    border-bottom: 1px solid #e1b382;
+    margin-bottom: unset !important
+    ;
+}
+
+#cover_png >div{
+    background: url("../images/melissa-walker-horn-jsEftnpVh1U-unsplash.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 500px;
+    max-height: 500px;
+}
+
+#hotel_rating{
+    margin: auto;
+}
+
+#five_star{
+    font-size: 80%;
+    margin: auto;
+    margin-top: -3em !important;
+    max-width: 40%;
+    padding:  0.4em;
+    color: #e1b382;
+    background: #fff;
+    background: #fff;
+    border-radius: 10px;
+
+}
+
+#five_star >div{
+    border: 1px solid #e1b382;
+    border-radius:10px;
+    background: #fff;
+    padding: 2em 5em;
+}
+
+#five_star> div> div div{
+    margin-bottom: 1.2em;
+    text-align: center;
+}
+
+
+    /* WELCOME AND CHECK IN */
+
+#checking_booking{
+    padding: 0.3em;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 6em;
+    margin-bottom: 4em;
+}
+
+
+#check_in{
+
+    
+}
+
+#check_in > div {
+    margin-bottom: 3em;
+}
+
+#check_in > div:nth-child(1) div{
+    margin-bottom: 1.4em;
+
+}
+
+
+.booking_border{
+    padding: 0.3em;
+}
+
+#booking{
+    padding: 0.3em;
+    border: 2px solid #e1b382;
+    justify-content: space-between;
+    padding:1.2em 2.4em;
+    border-radius: 10px;
+}
+
+#booking >div{
+    padding: 0.5em 1px;
+    min-width: 55%;
+}
+#booking > div:nth-child(1){
+    text-align: unset !important;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+#booking >div:nth-child(1) >div:nth-child(1){
+    background: #e1b382;
+    padding: 1em;
+    width:100%;
+    border-radius: 6px;
+}
+
+#booking >div >div >div div{  
+    background: #e1b382;
+}
+
+
+
+
+.booking_types{
+    display: flex;
+    margin-bottom: 1em;
+    padding: 0.5em 1px;
+    justify-content: space-between;
+}
+
+select{
+    outline: none;
+    border-color: ;
+}
+.booking_types input{
+    border: none;
+}
+input[type="date"]{
+    min-width: 30% !important;
+}
+
+.booking_types >input:focus, select:focus{
+    outline: none !important;
+    border-color: #fff;
+}
+
+option{ 
+    outline: none;
+}
+option:focus, option :active{
+    outline: none !important;
+}
+#booking .booking_types > input  , select{
+    background: #fff;
+    padding: 0.8em 1px;
+    border-radius:4px;
+    min-width: 18%;
+    margin-right: 0.8em;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 90%;
+    border-color: #fffF;
+
+}
+
+#booking_nth2{
+    padding: 2em 0.5em !important;
+    color: #e1b382;
+    min-width: 30% !important;
+}
+
+#booking_nth2 div{
+    margin-right: 0.3em;
+    display: inline;
+    text-align:left;
+    font-size: xxx-large;
+}
+#booking_nth2 div:nth-child(1){
+    margin-bottom: 0.5em;
+}
+#booking_nth2 div:nth-child(2){
+    margin-top: 0.5em;
+}
+
+
+.check_available{
+    background: #fff !important;
+    padding: 0.8em 1px !important;
+    width: 100%;
+    border-color: #fff;
+    color: #e1b382; 
+    user-select: none;
+    outline-color: #fff;
+    border-bottom: #fff;
+    border-right: #fff;
+}
+
+button{
+    border-bottom: #fff;
+    border-right: #fff;
+
+}
+
+
+
+    /* IMG GALLERY */
+
+
+.img_portrait{
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 4em;
+}
+.img_portrait >div.portrait_div1{
+    width: 50%;
+    padding: 0.8em;
+    padding-right: unset !important;
+
+}
+
+.portrait_desc{
+    font-size: 110%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em 2em;
+    border: 2px solid #e1b382;
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+
+.portrait_desc >div{
+    margin: auto;
+    margin-bottom: 1em !important;
+
+}
+.portrait{
+    background-position: center;
+    background-size: contain;
+    width: 50%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: url("../images/cooked-food-on-plate-3423498.jpg");
+    background-repeat: no-repeat;
+
+}
+
+.portrait span{
+}
+.pic_left{
+    border-radius: 10px;
+    border-top-right-radius: unset !important;
+    border-bottom-right-radius: unset !important;
+
+}
+
+.pic_right{
+    border-right: none !important;
+    border-top-right-radius: unset !important;
+    border-bottom-right-radius: unset !important;
+
+}
+
+.text_left{
+
+}
+
+.text_right{
+    padding-left: unset !important;
+}
+.text_right >div{
+    border-top-left-radius: unset !important;
+    border-bottom-left-radius: unset !important;
+    border-left: none !important;
+}
+
+
+#rooms{
+    text-align: center;
+    padding: 1em 0.5em;
+    margin-bottom: 4em;
+}
+
+#rooms button{
+    background: #e1b382;
+    padding: 1em 4em;
+    color: #fff;
+    border-color: unset;
+    border-radius: 6px;
+    letter-spacing: 1px;
+}
+
+
+/*FOOTER*/
+
+.footer{
+    margin-top: auto;
+    background: #1d1e22;
+    color: beige;
+    padding: 1px 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer_logo{
+    display: flex;
+    align-items:center
+}
+
+footer div img{
+    min-width: 60px;
+    min-height: 80px;
+}
+
+footer >div span{
+    display: flex;
+}
+
+
+#adress span{
+    margin-top: 0.5em;
+}
+#adress span div div{
+    margin-bottom: 0.3em;
+}
+/*RESPONSIVE NAVIGATION*/
+
+#rwd_navbar{
+    display: none;
+    position: absolute;
+}
+
+
+
+
+/*    MEDIA QUERIES    */
+ 
+    /* >> 800px */
+
+@media (max-width:490px){
+    #booking{
+        padding-left: 1.2em;
+    }
+}
+@media (min-width:500px){
+    body{
+        min-width: 122%;
+    }
+    #booking{
+        padding: 1.2em 4em;
+    }
+
+}
+
+@media (min-width:800px){
+
+    body{
+        min-width: unset;
+    }
+
+    #booking{
+        display: flex;
+        padding-right: 0.2em;
+        padding-left: 0.8em;
+    }
+
+    #booking >div{
+        padding: 0.5em 1px;
+        max-width: 62%;
+    }
+
+    #booking_nth2 div{
+        display: block;
+        margin-right: unset;
+        text-align:right;
+        font-size: 165%;
+    }
+
+    #booking .booking_types > span{
+        background: #fff;
+        padding: 0.2em 1px;
+        border-radius: 4px;
+        min-width: 80px;
+    
+    }
+
+    .portrait{
+        min-height: 100px;
+        max-height: 324.5px;
+    }
+    
+}
+
+@media (min-width:900px){
+    
+    .section_child{
+        min-width: 80%;
+    }
+    #booking{
+        display: flex;
+        padding: 1.2em 0.8em;
+        padding-right: 0.4em;
+    }
+    
+    
+    #booking_nth2 div{
+        text-align:right;
+        font-size: 180%;
+    }
+
+    #booking >div{
+        padding: 0.5em 1px;
+        min-width: 52%;
+    }
+
+    
+
+
+}
+
+
+@media(min-width: 1350px){
+    .section_child{
+        max-width: 65%;
+    }
+}
+
