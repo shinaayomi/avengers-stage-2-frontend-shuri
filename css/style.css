@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 150px;
+    height: 80px;
+    /* padding-left: 50px ; */
+    margin-left: 60px;
+}
+
+body{
+
+}
+
+nav{
+    height: 10vh;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li{
+    margin:10px 20px;
+    font-weight: 700;
+}
+
+.spacer{
+    flex: 10;
+}
+
+.form-container::before{
+    background: url('../_____newn/images/valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg');
+    content: "";
+    height:90vh ;
+    /* min-width: 100vw; */
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    filter: brightness(.7);
+    z-index: -1;
+    margin: 0 40px;
+}
+
+.form{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-details{
+    /* background: #fff;
+    width: 500px;
+    height: 500px; */
+    text-align: center;
+    margin-top: 250px;
+}
+
+input, button, textarea{
+    margin: 5px 0;
+    width: 550px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #A6A6A6;
+}
