@@ -1,0 +1,16 @@
+/* @ font-face */
+
+@font-face{
+	font-family: "Noto serif";
+	src:"./fonts/NotoSansJp-light.otf";
+}
+
+@font-face{
+	font-family: "Poppins Regular";
+	src:"./fonts/Poppins-Regular.ttf";
+}
+
+@font-face{
+	font-family: "Poppins SemiBold";
+	src:"./fonts/Poppins-SemiBold.ttf";
+}
