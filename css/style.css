@@ -1,0 +1,94 @@
+/* import fonts from fonts.css files */
+@import url(./fonts.css);
+
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+body{
+	background:url(../images/bg.jpg)no-repeat;
+	background-size:cover;
+	display:flex;
+	text-align:center;
+	justify-content:center;
+	min-height:100vh;
+	margin:0;
+}
+
+a, a:hover{
+	color:#bc9c5a;
+	text-decoration:none;
+}
+
+.login{
+	position:absolute;
+	top:30%;
+	left:38%;
+	right:42%;
+	transform: translate(-50px, -50px);
+	padding:8px;
+	width:350px;
+	height:420px;
+	box-sizing:border-box;
+	background:rgba(255,255,255,.95);
+	border-radius:10px;
+	/*border:2px solid #bc9c5a;*/
+}
+
+h3{
+	color:#bc9c5a;
+	padding-top:-40px;
+	font-weight:normal;
+	text-align:center;
+}
+
+.form{
+	margin:10px;
+	margin-top:5px;
+}
+
+.form input{
+	width:100%;
+	border:1px solid #bc9c5a;
+	border-radius:5px;
+	outline:none;
+	font-size:16px;
+}
+
+.form input.msg{
+	height:60px;
+	margin:0;
+}
+
+::placeholder{
+	padding:5px;
+}
+
+.form input[type="submit"]{
+	border:none;
+	outline:none;
+	height:30px;
+	color:#fff;
+	background:#bc9c5a;
+}
+
+.form input[type="submit"]:hover{
+	background:#9f8041;
+}
+
+.form p{
+	font-size:10pt;
+	color:rgba(0,0,0,.5);
+}
+
+.form h6{
+	font-weight:normal;
+	color:#bc9c5a;
+	border:1px solid #bc9c5a;
+	margin-left:80px;
+	width:50%;
+	justify-content:center;
+	font-size:14pt;
+}
