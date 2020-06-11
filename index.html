@@ -3,67 +3,251 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- font awesome -->
-    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
-    <!-- font awesome -->
-
-    <!-- boostrap -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-        crossorigin="anonymous">
-    boostrap -->
-    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-md nav-custom fixed-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 text-right pr-0 mr-0">
+                            <img src="_____newn/neoverse icon.svg" alt="icon" class="nav-icon">
+                        </div>
+                        <div class="col-8 text-left navheader">
+                            <p  class="nav-the">THE</p>
+                            <P  class="nav-neo">NEOVERSE</P>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navnav"
+                aria-controls="navnav" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navnav">
+                <ul class="navbar-nav ml-auto navbar-right">
+                    <li class="nav-item mr-5"><a href="#" class="nav-link active"> HOME</a></li>
+                    <li class="nav-item mr-5"><a href="web/rooms_and_suites.html" class="nav-link"> ROOMS &amp; RATES</a></li>
+                    <li class="nav-item"><a href="web/contact.html" class="nav-link"> CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <div>
-        <nav>
-            <img src="_____newn\neoverse combomark_.svg" class="logo"/>
-            <div class="spacer"></div>
-            <ul>
-                <li class = "items">HOMES</li>
-                <li>ROOMS AND RATES</li>
-                <li>CONTACT US</li>
-            </ul>
-        </nav>
-        
-            <div class="form-container">
-                <div class="form">
-                    <div class="form-details">
-                        <form action="">
-                        <h2>CONTACT US</h2>
-                        <input type="text" placeholder="Name"> <br>
-                        <input type="text" placeholder="E-mail"> <br>
-                        <input type="text" placeholder="Subject"> <br>
-                        <textarea name="message" id="Message" cols="30" rows="10" maxlength="3000" placeholder="message">
-                        </textarea> <br>
-                        <input type="submit" value="Send Message">
-                        </form>
+    <section class="intro-jumbo"> </section>
+
+    <hr class="golden-line">
+
+    <section>
+        <div class="container">
+            <div class="text-center lux">
+                <div class="landing-luxury-body">
+                    <div class="landing-luxury">
+                        <p>LUXURY OF THE FUTURE</p>
+                        <p>BROUGHT TO YOU</p>
+                        <p class="last-para">TODAY</p>
+                        <p>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </p>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="text-center">
+                <div class="landing-neo">
+                    <p>Welcome to the Neoverse,</p>
+                    <p>Prepare yourself to be immersed in an unforgettable experience</p>
+                    <p>that will leave you wanting to stay longer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="landing-make-span">
+                <div class="landing-reserve">
+                    <div class="landing-reserve-body">
+                        <div class="row">
+                            <div class="col-lg-6 order-last order-md-first">
+                                <div class="make-form">
+                                    <form action="" method="POST">
+                                        <div class="row">
+                                            <div class="col-sm-3 mb-2  form-col">
+                                                <input type="date" placeholder="Check-in" class="form-control" >
+                                            </div>
+                                            <div class="col-sm-3 mb-2  form-col">
+                                                <select name="" id="" class="form-control">
+                                                    <option value="">Nights</option>
+                                                    <option value="yes">Yes</option>
+                                                    <option value="no">No</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-3 mb-2 form-col">
+                                                <select name="" id=""  class="form-control">
+                                                    <option value="">Adults</option>
+                                                    <option value="yes">Yes</option>
+                                                    <option value="no">No</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-3 mb-2 form-col">
+                                                <select name="" id=""  class="form-control">
+                                                    <option value="">Children</option>
+                                                    <option value="yes">Yes</option>
+                                                    <option value="no">No</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-12 mt-1">
+                                                <input type="submit" value="CHECK AVAILABILITY" class="form-control make-btn btn ">
+                                            </div>
+                                        </div>
+                                    </form>    
+                                </div>
+                            </div>
+                            <div class="col-lg-6 order-first order-md-last">
+                                <div class=" make-text">
+                                    <p>MAKE A RESERVATION</p>
+                                </div>
+                            </div>
+                        </div>    
                     </div>
                 </div>
             </div>
-    </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="landing-span">
+                <div class="row">
+                    <div class="col-md-6 landing-body">
+                        <div class="landing-info ">
+                            <div class="landing-info-text ">
+                                <p>Every corner you turn to is fully equipped with the most advanced technological features
+                                    to ensure utmost efficiency in your dealings.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 landing-jumbo" style="background: url('_____newn/images/118265.jpg') center no-repeat;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="landing-span">
+                <div class="row">
+                    <!-- <div class="col-md-6 landing-jumbo2" style="background: url('_____newn/images/cooked-food-on-plate-3423498.jpg') center no-repeat;">
+                    </div> -->
+                    <div class="col-md-6 mr-0 pr-0 ml-0 pl-0">
+                        <img src="_____newn/images/cooked-food-on-plate-3423498.jpg" alt="picture of food" class="landing-jumbo2">
+                    </div>
+                    <div class="col-md-6 landing-body2">
+                        <div class="landing-info2 ">
+                            <div class="landing-info-text ">
+                                <p>Our culinary repertoire is equipped with the most mouth watering dishes prepared and served
+                                     by a hand-picked selection of world-renowned experts.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="landing-span">
+                <div class="row">
+                    <div class="col-md-6 landing-body">
+                        <div class="landing-info ">
+                            <div class="landing-info-text ">
+                                <p>Our Halls and conference rooms are tailored to meet the demands of the most advanced meetings,  
+                                    presentations and events imaginable in modern day.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 landing-jumbo" style="background: url('_____newn/images/great-room.jpg') center no-repeat;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="text-center">
+                <p class="landing-link">
+                    <a href="#">Rooms &amp; Suites</a>
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <footer class="landing-dark">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 foot-icon text-left">
+                    <img src="_____newn/neoverse icon.svg" alt="icon" class="nav-icon2">
+                </div>
+                <div class="col-9 text-right">
+                    <div class="row">
+                        <div class="col-10 mr-0 pr-1 text-right footer-para">
+                            <p>3891 Ranchview Dr. Richardson</p>
+                            <p>California 62639</p>    
+                        </div>
+                        <div class="col-2 ml-0 pl-0 mt-1 text-left footer-icon">
+                            <!-- <img src="_____newn/neoverse combomark_.svg" alt="icon" class=""> -->
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="col-10 mr-0 pr-1 mt-3 text-right footer-para">
+                            <p>(208) 555-0112</p>    
+                        </div>
+                        <div class="col-2 ml-0 pl-0  mt-3 text-left footer-icon">
+                            <i class="fa fa-phone fa-rotate-270"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top"> 
+        <i class="fa fa-angle-up"></i>
+    </a>
 
 
 
 
 
-    <!-- bootstrap js -->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous">
-        </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous">
-        </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous">
-        </script>
 
-    <!-- bootstrap js -->
-    <!-- your own script -->
-    <script src="src/index.js"></script>
-    <!--  -->
+
+
+   <script src="src/jquery-3.4.1.js"></script>
+   <script src="src/bootstrap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+   <!-- <script src="_____newn/bootstrap/js/easing.min.js"></script> -->
+   <script src="src/index.js"></script>
+
 </body>
-</html>
+</html> 
