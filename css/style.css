@@ -1,0 +1,33 @@
+
+.logo{
+    width: 150px;
+    height: 40px;
+    /* padding-left: 50px ; */
+    margin-left: 60px;
+}
+
+
+
+/*nav{
+    height: 10vh;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+}*/
+
+strong{
+    color: burlywood;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+}
+
+.spacer{
+    flex: 10;
+}
+
+a:hover strong {
+    color: black;
+  }
