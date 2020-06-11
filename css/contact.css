@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hamburger{
+    display: none;
+}
+
+.logo{
+    width: 150px;
+    height: 80px;
+    /* padding-left: 50px ; */
+    margin-left: 60px;
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+nav{
+    height: 10vh;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    /* position: fixed; */
+    left: 0;
+    right: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li{
+    margin:10px 20px;
+    font-weight: 700;
+}
+
+li a{
+    text-decoration: none;
+    color: #D9b77b;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+li a:hover{
+    color: #6D5C3E;
+    letter-spacing: 3px;
+}
+
+.spacer{
+    flex: 10;
+}
+
+.form-container::before{
+    background: url('../images/valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg');
+    content: "";
+    height:180vh ;
+    /* min-width: 100vw; */
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    filter: brightness(.7);
+    z-index: -1;
+    margin: 0 40px;
+}
+
+input, textarea {
+    margin: 5px 0;
+    width: 550px;
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    letter-spacing: 3px;
+    background: #F3f3f3;
+    border: 2px solid #D9b77b;
+}
+
+h2{
+    color: #D9b77b ;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+
+#submit{
+    margin: 5px 0;
+    width: 550px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #D9b77b ;
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+hr{
+    height: 5px;
+    background: #E5E5E5;
+    outline: none;
+    opacity: .5;
+    margin-top: 15px;
+}
+
+h4{
+    color: #cbcbcb ;
+    margin-top: 15px;
+}
+
+button{
+    background: none;
+    outline: none;
+    margin-top: 20px;
+    padding: 15px 150px;
+    border: 2px solid #D9b77b;
+    color: #D9b77b;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+button:hover{
+    background: #6D5C3E;
+    border: none;
+}
+
+.icons{
+    margin: 40px;
+}
+
+.a{
+    margin: 0 42px;
+}
+
+.form-details{
+    text-align: center;
+    margin-top: 200px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 13px;
+}
+
+.form{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+form{
+    border: 3px solid #D9b77b;
+    padding: 20px;
+    border-radius: 13px;
+}
+
+@media screen and (max-width: 650px) {
+   .items{
+    display: none;
+   }
+
+   .hamburger{
+    display: block;
+   }
+
+   .logo{
+    margin-left: 5px;
+   }
+
+   input,textarea {
+    width: 200px;
+   }
+
+   #submit{
+    width: 200px;
+    text-align: center;
+    letter-spacing: 2px;
+   }
+
+   .form-details{
+    width: 300px; 
+    margin-top: 100px;
+   }
+
+   button{
+    padding: 15px 80px;     
+   }
+
+   .form-container::before{
+    height:160% ;
+    margin-top: 40px;
+    }
+
+    .items.active{
+        display: block;
+    }
+
+    nav{
+        display: flex;
+    }
+
+    ul{
+        display: flex;
+        width: 90%;
+        position: absolute;    
+        top: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li{ 
+        margin-top: 1px ;
+        margin-bottom: 3px;
+    }
+
+    li a{
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+
+    .hamburger{
+        order: 1;
+        /* padding: 20px; */
+    }
+}
+
+@media screen and (max-width: 380px){
+    .form-container::before{
+        background: none;
+    }
+
+    ul{
+        display: flex;
+        width: 90%;
+        position: absolute;    
+        top: 80px;
+        justify-content: center;
+        align-items: center;
+    }
+}

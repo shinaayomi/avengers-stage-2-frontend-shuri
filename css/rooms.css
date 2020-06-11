@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    min-width: 100vw;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    font-family: 'Poppins';
+  }
+  
+  nav {
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .bg-light{
+    background: #fff;
+  }
+  
+  header{
+    width: 100vw ;
+    height: 100vh;
+    background-image: url("../src/images/room.png"); 
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .heading {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 24px;
+    color: #000000;
+    padding-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  
+  .subheading {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .overlay-content{
+    position: absolute;
+    width: 50%;
+    height: 300px;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    border-radius: 24px;
+    text-align: center;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    z-index: 4;
+  }
+  
+  .overlay-content::after{
+    content: "";
+    position: absolute;
+    border: 3px solid #d9b77b;
+    width: 95%;
+    height: 95%;
+    bottom: 7px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 12px;
+  }
+  
+  .overlay-content h3 {
+    width: 80%;
+    text-align: center;
+    margin: 5px auto;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: 0.25em;
+    color: #d9b77b;
+  }
+  
+  .section-1{
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  
+  /* .room {
+    background: #ffffff;
+    line-height: 12px;
+    padding: 16px;
+    font-size: medium;
+    font-weight: 600;
+  } */
+  
+  .price {
+    color: #d9b77b;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  
+  /* .suite {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+  } */
+  
+  .img-list {
+    width: 100%;
+  }
+  
+  .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+  }
+  
+  .row > [class*="col-"] {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .al-btn {
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hotelcon {
+    width: 200px;
+    margin-left: 140px;
+    margin-top: 80px;
+  }
+  
+  .img-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .title {
+    text-align: center;
+    color: #d9b77b;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.25em;
+  }
+  
+  /* Footer */
+  
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a:focus,
+  a:hover {
+    text-decoration: none;
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+  }
+  
+  a:focus {
+    outline: 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #212353;
+    font-weight: 300;
+  }
+  
+  h4 {
+    font-family: Rubik, sans-serif;
+    margin: 0;
+    font-weight: 400;
+    padding: 0;
+    color: #363940;
+  }
+  
+  a {
+    color: #212353;
+  }
+  
+  .no-padding {
+    padding: 0 !important;
+  }
+  
+  .footer-area {
+    margin-top: 10%;
+  }
+  
+  .footer-big {
+    padding: 105px 0 65px 0;
+  }
+  
+  .footer-big .footer-widget {
+    margin-bottom: 40px;
+  }
+  
+  .footer--light {
+    background: #f6f7f9;
+  }
+  
+  .footer-big .footer-menu ul li a,
+  .footer-big p,
+  .footer-big ul li {
+    color: #898b96;
+  }
+  
+  .footer-menu {
+    padding-left: 48px;
+  }
+  
+  .footer-menu ul li a {
+    font-size: 15px;
+    line-height: 32px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .footer-menu ul li a:hover {
+    color: #d9b77b;
+  }
+  
+  .footer-menu--1 {
+    width: 100%;
+  }
+  
+  .footer-widget-title {
+    line-height: 42px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .mini-footer {
+    background: #192027;
+    text-align: center;
+    padding: 32px 0;
+  }
+  
+  .mini-footer p {
+    margin: 0;
+    line-height: 26px;
+    font-size: 15px;
+    color: #999;
+  }
+  
+  .widget-about img {
+    display: block;
+    margin-bottom: 30px;
+  }
+  
+  .widget-about p {
+    font-weight: 400;
+  }
+  
+  .widget-about .contact-details {
+    margin: 30px 0 0 0;
+  }
+  
+  .widget-about .contact-details li {
+    margin-bottom: 10px;
+  }
+  
+  .widget-about .contact-details li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .widget-about .contact-details li span {
+    padding-right: 12px;
+  }
+  
+  .widget-about .contact-details li a {
+    color: #212353;
+  }
+  
+  .footer-widget a {
+    color: #d9b77b;
+  }
+  
+  .card {
+    height: 435px;
+    margin: 30px 0;
+  }
+  
+  .card-info {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    color: #000000c4;
+  }
+  
+  .card-info .icons {
+    padding-right: 3px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .heading{
+      margin-top: 150px;
+    }
+  
+    .overlay-content h3 {
+      text-align: center;
+      margin: 5px auto;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 32px;
+      text-align: center;
+      letter-spacing: 0.25em;
+      color: #d9b77b;
+    }
+  
+    .subheading{
+      font-size: .9rem;
+    }
+  
+    .title{
+      width: 100%;
+      text-align: center;
+      margin-top: 50px;
+      font-family: 'Poppins';
+    }
+  
+    .hotelcon{
+      margin-left: 80px;
+      margin-top: 20px;
+      /* margin-top: 0px; */
+    }
+  
+    .mini-footer{
+      margin-top: -150px;
+    }
+  }
+  
+  
