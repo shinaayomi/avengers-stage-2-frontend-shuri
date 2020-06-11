@@ -1,0 +1,132 @@
+body{
+  text-align: center;
+}
+
+h4{
+  color: #dfa56f;
+}
+
+.header_text{
+  color: #dfa56f;
+}
+
+.headerImage{
+  margin: auto;
+  background-image: url("images/unsplash-bedroom-windows-olexandr-ignatov.jpg");
+  width: 900px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+.outerDiv{
+	margin-top: 210px;
+  margin-left: 280px;
+  align-content: center;
+  position: absolute;
+	width: 25%;
+	background-color: white;
+	padding: 10px;
+	border: 2px solid #f4f4f4;
+	border-radius: 10px;
+	text-align: center;
+}
+.innerDiv{
+	border: 2px solid #dfa56f;
+	min-height: 50px;
+	border-radius: 10px;
+	padding-bottom: 40px;
+}
+
+.innerDiv.header_text p{
+  color: #dfa56f;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.outerDivRooms{
+	margin-top: 90px;
+  margin-left: 180px;
+  align-content: center;
+  position: absolute;
+	width: 25%;
+	background-color: white;
+	padding: 10px;
+	border: 2px solid #f4f4f4;
+	border-radius: 10px 0 0 10px;
+	text-align: center;
+  z-index: -1;
+}
+
+.innerDivRooms{
+	border: 2px solid #dfa56f;
+	min-height: 50px;
+	border-radius: 10px 0 0 10px;
+	padding-bottom: 40px;
+}
+
+.innerDivRooms i{
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.roomimg1{
+  margin-left: 220px;
+  margin-top: 90px;
+  border-radius: 0 10px 10px 0;
+}
+
+
+.img1{
+  margin-left: 147px;
+}
+
+
+
+
+
+.imgReverse{
+  margin-left: 147px;
+}
+
+.outerDivRoomsReverse{
+  margin-top: 70px;
+  margin-left: 516px;
+  align-content: center;
+  width: 29%;
+  background-color: white;
+  padding: 10px;
+  border: 2px solid #f4f4f4;
+  border-radius: 0 10px 10px 0;
+  text-align: center;
+  z-index: -1;
+}
+
+.innerDivRoomsReverse{
+  border: 2px solid #dfa56f;
+  min-height: 50px;
+  border-radius: 0 10px 10px 0;
+  padding-bottom: 40px;
+}
+
+.innerDivRoomsReverse i{
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.roomimgReverse{
+  margin-left: -413px;
+  position: absolute;
+  margin-top: 1px;
+  border-radius: 10px 0 0 10px;
+}
+
+button{
+  //height: 50%;
+  width: 60%;
+  color: #fff;
+  background-color: #dfa56f;
+  border: 1px hidden;
+  border-radius: 7px;
+  padding: 10px;
+}

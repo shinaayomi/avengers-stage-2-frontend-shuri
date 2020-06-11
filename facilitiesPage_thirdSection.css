@@ -1,0 +1,32 @@
+
+     #facilities_third_part_background{
+		//display: inline-block;
+		//margin: 3em 8em;
+	}
+	#facilities_third_part{
+		padding: 5px;
+		position: relative;
+		margin: 10px;
+		//float: left;
+		text-align: center;
+	}
+
+	/* Create three equal columns that floats next to each other */
+	.column1 {
+	  float: left;
+	  width: 33.33%;
+	}
+
+	/* Create four equal columns that floats next to each other */
+	.column2 {
+	  float: left;
+	  width: 33.33%;
+	}
+
+	/* Clear floats after the columns */
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+}
