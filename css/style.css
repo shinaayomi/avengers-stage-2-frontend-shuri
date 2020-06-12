@@ -1,79 +1,109 @@
-.text--brown{
-    color: #DAB77C!important;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #dab77c;
+}
+.text--brown {
+  color: #dab77c !important;
 }
 
 .text--dark {
-    color: #6D5C3E!important;
+  color: #6d5c3e !important;
 }
 
 .text-white {
-    color: whitesmoke!important;
+  color: whitesmoke !important;
 }
 
 .bg-background {
-    background-image: url('../assets/images/unsplash-bedroom-windows-olexandr-ignatov.jpg')!important;
-    height: 100vh;
-    background-image: #777;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+  background-image: url('../assets/images/unsplash-bedroom-windows-olexandr-ignatov.jpg') !important;
+  height: 100vh;
+  background-image: #777;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .ab {
-    position: relative;
-
+  position: relative;
 }
 
-
-
-.container-box{
-    width: 700px;
-    height: 384px;
-    background: #fff;
-    border-radius: 20px;
-    z-index: 5;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    transform: translate(0%, -60%)
-
-
+.container-box {
+  width: 700px;
+  height: 384px;
+  background: #fff;
+  border-radius: 20px;
+  z-index: 5;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(0%, -60%);
 }
 
 .inner-container {
-    border-radius: 20px;
-    width: 660px;
-    height: 450px;
-    border: 2px solid #D9B77A;
-    margin: auto;
-    margin-top: 1rem;
-
+  border-radius: 20px;
+  width: 660px;
+  height: 450px;
+  border: 2px solid #d9b77a;
+  margin: auto;
+  margin-top: 1rem;
 }
 
 .inner-container-text {
-    font-size: 2rem;
-    padding: 3rem;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    line-height: 4rem;    
-    color: #D9B77A!important;
-    
+  font-size: 2rem;
+  padding: 3rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  line-height: 4rem;
+  color: #d9b77a !important;
 }
 
 .inner-container-logo-container {
-    text-align: center;
+  text-align: center;
 }
 
 .sect {
-    letter-spacing: 2px;
-    /* background-color: #6D5C3E; */
-    margin-top: 19rem;
-    padding: 3rem;
-    font-size: 2rem;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    text-align: center;
-
+  letter-spacing: 2px;
+  /* background-color: #6D5C3E; */
+  margin-top: 19rem;
+  padding: 3rem;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+.cursive {
+  font-family: 'Bilbo', cursive;
+  font-size: 31px;
+  color: #777;
+}
+.empty-div {
+  height: 384px;
+}
+.border-shadow {
+  border: 1px solid black;
+}
+.button {
+  width: 90%;
+  background-color: #d9b77a;
+  color: fff;
+  font-family: 'Poppins', sans-serif;
+}
+.button:hover {
+  background-color: #6d5c3e;
+  color: #dab77c;
+}
+.size-125 {
+  font-size: 20px;
+}
+.rooms-border {
+  border: 2px solid #d9b77a;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
